@@ -78,7 +78,7 @@ float Culculate(){
 			    y = y - 48;      //将ASCII值转为输入的数值
 			    res = x + y;                 //运算结果替换运算符
 			    expre[i] = x + y +48;     //将结果重新转为ASCII值 
-			    PushStack(&Stack2,expre[i]);  //计算结果的ASCII值入栈 
+			    PushStack(&Stack2,res);  //计算结果的ASCII值入栈 
 			    break;
 			case '-':                     //后续步骤解释与+运算类似 
 			    x=PopStack(&Stack2,y);
