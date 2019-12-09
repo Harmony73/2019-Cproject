@@ -108,9 +108,8 @@ float Culculate(){
 			    y=PopStack(&Stack2,y);
 			    x = x - 48;
 			    y = y - 48;
-			    expre[i] = pow(y,x);
+			    res = pow(y,x);
 			    PushStack(&Stack2,res);
-			    res = expre[i];
 			    break;
 	    }
     }
