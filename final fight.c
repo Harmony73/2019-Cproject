@@ -70,7 +70,7 @@ Status CreateStack(Stack* pSt);
 Status ClearStack(Stack* pSt);
 /*功能：对栈进行清空。
  *输入参数 ：Stack2。
- *作用方式：令栈顶等于栈底。
+ *作用方式：令栈顶等于栈底（指针）
  *注意事项：需要# #include <stdio.h>，且在创建栈的函数中已经完成一次清空操作。
  */
 YesNo IsStackEmpty(Stack* pSt);
